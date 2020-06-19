@@ -1,14 +1,13 @@
 # Your achievements achievements
 achievements:
-  - title: Best Presenter
+  - title: Parcours Scolaire
     image: images/achievements/presenter.jpg
-    summary: Best presenter in 2020 XYZ conference.
-  - title: Champion
+    summary: "2017/2019 - **BAC +4** Responsable en Ingénierie des Logiciels - CESI Alternance<br>2015/2017 - **BTS** Servies Informatiques aux Organisations (spécalité développement)"
+  - title: Disponibilité
     image: images/achievements/sport.jpg
-    summary: Champion in cycling inter-city cycling championship 2020.
-  - title: Graduation
+    summary: Je suis disponible dans un rayon d'une quarantaine de Kms autours de Nancy (54000) et pour toutes autres missions non-présentielles. 
+  - title: Intelligence Artificielle
     image: images/achievements/graduation-cap.jpg
-    summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-  - title: Award Winner
+  - title: Certifications Obtenues
     image: images/achievements/woman-winner.jpg
-    summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus architecto minus facere vero?
+    summary: 'La liste de toute mes certification obtenues sur les plateformes OpenClassroom et Udemy est disponible sur mon profil [LinkedIn](https://www.linkedin.com/in/florian-formentini-273189139/)'
