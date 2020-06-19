@@ -1,6 +1,6 @@
 baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: fr
+title: Florian F.
 theme: "toha"
 
 # Allow raw html in markdown file
@@ -14,7 +14,7 @@ googleAnalytics: <your google analytics id>
 
 # Enable Disqus forum
 # optional
-disqusShortname: <your disqus short code>
+disqusShortname: does-not-exist
 
 # Enable global emoji support
 enableEmoji: true
@@ -22,4 +22,4 @@ enableEmoji: true
 # Custom parameters
 params:
   # Github Repo URL. This is used to add "Improve This Page" button
-  gitRepo: <your site's Github repo URL>
+  gitRepo: http://www.google.fr

@@ -1,0 +1,59 @@
+# your designation
+designation: Analyste Programmeur
+
+# your company information
+#company:
+#  name: Example Co.
+#  url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Je suis un jeune développeur full-stack, formé à la gestion de projets (dont les méthodes agiles), au travail en équipe et spécialisé dans le traitement de données. Passionné par les nouvelles technologies, je me forme actuellement au développement d'intelligence artificielles et à la DataScience."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:florian.formentini@viacesi.fr"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/Flooow54"
+
+# - name: Stackoverflow
+#   icon: "fab fa-stack-overflow"
+#   url: "#"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/florian-formentini-273189139/"
+
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "#"
+
+# - name: Facebook
+#   icon: "fab fa-facebook"
+#   url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported color: blue, yellow, pink, green
+softSkills:
+- name: Analyser
+  percentage: 25
+  color: blue
+- name: Développer
+  percentage: 50
+  color: yellow
+- name: Déployer
+  percentage: 75
+  color: pink
+- name: Maintenir
+  percentage: 100
+  color: green
+
+
