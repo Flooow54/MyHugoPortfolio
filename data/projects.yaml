@@ -13,16 +13,16 @@ buttons:
 # if your project is public repo on github, then provide "repo" link. it will show star count.
 # if your project is not a public repo but it has a website, or any external details url then provide "url". don't provide "repo" and "url" simultaneously.
 projects:
-  - name: Angular
-    logo: images/projects/kubernetes.png
+  - name: Pokédex Angular
+    logo: images/logos/angular.png
     role: Contributor
     timeline: "March 2018 - Present"
-    repo: https://github.com/kubernetes/kubernetes 
+    url: "https://ng8-pokemons-app.web.app/login" 
     summary: Production-Grade Container Scheduling and Management .
     tags: ["professional", "kubernetes", "cloud"]
 
   - name: Tensorflow
-    logo: images/projects/tensorflow.png
+    logo: images/logos/tensorflow.png
     role: Developer
     timeline: "Jun 2018 - Present"
     repo: https://github.com/tensorflow/tensorflow
@@ -38,7 +38,7 @@ projects:
     tags: ["academic","iot"]
 
   - name: Migration APEX
-    logo: images/projects/apex.png
+    logo: images/logos/apex.png
     role: Chef de projet
     timeline: "Janvier 2018 - Mars 2019"
     #repo: 
@@ -47,7 +47,7 @@ projects:
     tags: ["professional", "oracle", "DBA"]
 
   - name: Brick Breaker 2D
-    logo: images/projects/unity.png
+    logo: images/logos/unity.png
     #role:
     timeline: "Mars 2020 (durée de 2 semaines)"
     repo: "#"

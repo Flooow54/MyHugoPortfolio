@@ -6,7 +6,7 @@ skills:
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
 
 - name: Go Development
-  icon: "images/skills/go.png"
+  icon: "images/logos/go.png"
   summary: "Using as main language for professional development. Capable of writing scalable, testable, and maintainable program."
 
 - name: Cloud Computing
@@ -26,9 +26,9 @@ skills:
   summary: "Using as main operating system. Capable of writing bash/shell scripts."
 
 - name: Git
-  icon: "images/skills/git.png"
+  icon: "images/logos/git.png"
   summary: "Experienced with git based development. Mostly, use Github. Also have experience in working with GitLab."
 
-- name: C++
-  icon: "images/skills/c++.png"
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+- name: C#
+  icon: "images/logos/cSharp.png"
+  summary: "Know basic C# programming. Used for contest programming and problem solving."
