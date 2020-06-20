@@ -15,6 +15,10 @@ summary: "Je suis un jeune développeur full-stack, formé à la gestion de proj
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/florian-formentini-273189139/"
+
 - name: Email
   icon: "fas fa-envelope"
   url: "mailto:florian.formentini@viacesi.fr"
@@ -23,13 +27,9 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/Flooow54"
 
-# - name: Stackoverflow
-#   icon: "fab fa-stack-overflow"
-#   url: "#"
-
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/florian-formentini-273189139/"
+- name: Discord
+  icon: "fab fa-discord"
+  url: "Flooow#9463"
 
 # - name: Twitter
 #   icon: "fab fa-twitter"
@@ -44,16 +44,17 @@ socialLinks:
 # currently supported color: blue, yellow, pink, green
 softSkills:
 - name: Analyser
-  percentage: 25
-  color: blue
-- name: Développer
-  percentage: 50
+  percentage: 20
   color: yellow
+- name: Développer
+  percentage: 40
+  color: blue
 - name: Déployer
-  percentage: 75
+  percentage: 60
   color: pink
+- name: Documenter
+  percentage: 80
+  color: black
 - name: Maintenir
   percentage: 100
   color: green
-
-

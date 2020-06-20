@@ -1,22 +1,23 @@
 # filter buttons
 buttons:
-  - name: All
+  - name: Tout
     filter: "all"
-  - name: Professional
+  - name: Professionnels
     filter: "professional"
-  - name: Academic
+  - name: Scolaires / MOOCs
     filter: "academic"
-  - name: Hobby
+  - name: Personnels
     filter: "hobby"
 
 # your projects
+# if your project is public repo on github, then provide "repo" link. it will show star count.
+# if your project is not a public repo but it has a website, or any external details url then provide "url". don't provide "repo" and "url" simultaneously.
 projects:
-  - name: Kubernetes
+  - name: Angular
     logo: images/projects/kubernetes.png
     role: Contributor
     timeline: "March 2018 - Present"
-    repo: https://github.com/kubernetes/kubernetes # if your project is public repo on github, then provide this link. it will show star count.
-    #url: ""  # if your project is not a public repo but it has a website, or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    repo: https://github.com/kubernetes/kubernetes 
     summary: Production-Grade Container Scheduling and Management .
     tags: ["professional", "kubernetes", "cloud"]
 
@@ -36,19 +37,19 @@ projects:
     summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
     tags: ["academic","iot"]
 
-  - name: Nocode
-    logo: images/projects/no-code.png
-    role: Nothing
-    timeline: "Oct 2019 - Dec 2019"
-    repo: https://github.com/kelseyhightower/nocode
-    #url: ""
-    summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-    tags: ["hobby", "fun"]
+  - name: Migration APEX
+    logo: images/projects/apex.png
+    role: Chef de projet
+    timeline: "Janvier 2018 - Mars 2019"
+    #repo: 
+    url: "#" # créer un post sur le sujet (en dehors du dossier post)
+    summary: "Migration d'un parc de 42 applications (ainsi que des services tiers concernés) développées avec Oracle APEX 3.2 avec une BDD 11g vers la version 5.1 et une BDD 12c"
+    tags: ["professional", "oracle", "DBA"]
 
-  - name: Toha
-    logo: images/projects/toha.png
-    role: Owner
-    timeline: "Jun 2019 - Present"
-    repo: https://github.com/hossainemruz/toha
-    summary: A Hugo theme for personal portfolio.
-    tags: ["hobby","hugo","theme","professional"]
+  - name: Brick Breaker 2D
+    logo: images/projects/unity.png
+    #role:
+    timeline: "Mars 2020 (durée de 2 semaines)"
+    repo: "#"
+    summary: Création d'un jeu de Casse-Brique avec Unity afin de prendre la main avec des bonnes pratiques de développement sur le moteur de jeu (animations 2D, gestion de niveaux, GUI, etc..).
+    tags: ["hobby","unity","game"]

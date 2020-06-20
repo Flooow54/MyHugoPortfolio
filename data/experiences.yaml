@@ -1,43 +1,40 @@
 # Your experiences
+# don't provide "end" date if you are currently working there. It will be replaced by "Aujourd'hui"
+# if no responsabilities given the list will be removed
 experiences:
-  - designation: Software Engineer
+  - designation: Micro-Entrepreneur
     company:
-      name: Example Co.
-      url: "https://www.example.com"
-      location: Dhaka Branch
+      name: Flo Corp.
+      url: "#"
+      location: Nancy (54)
       # company overview
-      overview: Example Co. is a widely recognized company for cloud native development. It build tools for Kubernetes.
-    start: Nov 2017
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-      - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases and cluster's resource definition.
-      - My another responsibilities.
-      - My more responsibilities.
+      overview: Je propose désormais mes services en tant que développeur Freelance. Actuellement mon domaine de prédilection est l'édition d'applications lourdes et la gestion des données associées, mais je souhaiterai acquérir de l'expérience dans les domaines de la DataScience et du DeepLearning afin de valider des connaissances obtenues en autodidacte.  
+    start: Juin 2020
+    # responsibilities:
+    #   - Mission description
 
-  - designation: Software Engineer
+  - designation: Chef de Projet Junior / DBA
     company:
-      name: PreExample Co.
-      url: "https://www.preexample.com"
-      location: Nowhere
-      overview: PreExample Co. is gateway company to enter into Example co. So, nothing special here.
-    start: March 2016
-    end: May 2017
+      name: Arvato Logitique Services France
+      url: "https://arvato-supply-chain.com/en"
+      location: Atton (54)
+      overview: Plateforme logistique dans le secteur de l'Entertainment appartenant à la division Arvato du groupe [Bertelsmann](https://www.bertelsmann.com/#st-1).
+    start: Août 2017
+    end: Mars 2019
     responsibilities:
-      - Write lots of example codes.
-      - Read lots of examples.
-      - See lots of example videos.
+      - Gestion du projet de migration d'un système Oracle APEX 3.2 vers la version 5.1
+      - Administration de BDD Oracle 11g et 12c
+      - Modification d'applications C# / VB.NET
+      - Support utilisateur / ticketing
 
-  - designation: Intern
+  - designation: Développeur C#
     company:
-      name: Intern Counting Company (ICC).
-      url: "https://www.intern.com"
-      location: Intern Land
-      overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineer.
-    start: Jun 2015
-    end: Jan 2016
+      name: Help Info
+      url: "http://www.helpinfo.fr/"
+      location: Nancy (54)
+      overview: "Entreprise de services informatiques proposant deux pôles d'activité :<br/> - Installation et gestion du parc informatique, de l'infrastructure réseau et de la relation avec les différents éditeurs de logiciels d'une entreprise.<br/> - Edition et intégration d'un logicel de gestion du temps de travail créé en interne."
+    start: 2016
+    end: (Stage de 7 semaines)
     responsibilities:
-      - Count lost of interns.
-      - Count more interns.
-      - Count myself as intern.
+      - "Migration de l'application de gestion du temps de travail en WinForm vers une application WPF"
+      - "Développement de nouvelles fonctionnalités : création d'un écran de planning dynamique"
