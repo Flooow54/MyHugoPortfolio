@@ -27,10 +27,6 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://github.com/Flooow54"
 
-- name: Discord
-  icon: "fab fa-discord"
-  url: "Flooow#9463"
-
 # - name: Twitter
 #   icon: "fab fa-twitter"
 #   url: "#"
@@ -39,22 +35,22 @@ socialLinks:
 #   icon: "fab fa-facebook"
 #   url: "#"
 
-# your soft skills
+# your social skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported color: blue, yellow, pink, green
 softSkills:
-- name: Analyser
-  percentage: 20
+- name: Logique
+  percentage: 90
   color: yellow
-- name: Développer
-  percentage: 40
+- name: Autonome
+  percentage: 80
   color: blue
-- name: Déployer
-  percentage: 60
+- name: Esprit d'équipe
+  percentage: 85
   color: pink
-- name: Documenter
+- name: Rigoureux
   percentage: 80
   color: black
-- name: Maintenir
-  percentage: 100
+- name: Curieux
+  percentage: 95
   color: green
