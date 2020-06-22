@@ -1,0 +1,63 @@
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        {{ if .Site.Data.site }}
+          <ul>
+            {{ range .Site.Data.site.menus }}
+            <li class="nav-item">
+              <a class="smooth-scroll" href="{{ .url }}">{{ .name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Contactez Moi</h5>
+        <ul>
+          {{ range $key,$value:=.Site.Data.site.author.contactInfo }}
+          <li><span>{{ title $key }}: </span> <span>{{ $value }}</span></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <!-- <h5>Newsletter</h5> -->
+        <h5>Newsletter</h5>
+        <form>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >Votre adresse email ne sera jamais partagée ni utilisée à d'autres fins.</small
+            >
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <img class="card-img-xs" src="/assets/images/logo.png"/>
+      </div>
+      <div class="col-md-4">© Florian Florian 2020 - <a class="smooth-scroll" href="">CC BY-SA</a></div>
+      <div class="col-md-4">
+        Powered by <a href="https://gohugo.io/">Hugo
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

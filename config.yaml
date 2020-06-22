@@ -1,7 +1,6 @@
 baseURL: http://example.org/
 languageCode: fr
 title: Florian F.
-theme: "toha"
 
 # Allow raw html in markdown file
 markup:
@@ -10,11 +9,11 @@ markup:
       unsafe: true
 
 # Enable Google Analytics
-googleAnalytics: <your google analytics id>
+googleAnalytics: "" # <your google analytics id>
 
 # Enable Disqus forum
 # optional
-disqusShortname: does-not-exist
+disqusShortname: "" # see https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Enable global emoji support
 enableEmoji: true
