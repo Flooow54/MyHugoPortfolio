@@ -1,5 +1,5 @@
 <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
-  <div class="card">
+  <div class="card" style="min-height: min-content;">
     <div class="card-head d-flex">
       {{ if .icon }}
       <img class="card-img-sm" src="{{ .icon }}" alt="{{ .name }}" />
@@ -8,7 +8,7 @@
       {{ end }}
       <h4 class="card-title">{{ .name }}</h4>
     </div>
-    <div class="card-body">
+    <div class="card-body pt-1 pb-1">
       <p class="card-text">{{ .summary | markdownify }}</p>
     </div>
   </div>

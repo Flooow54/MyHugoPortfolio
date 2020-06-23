@@ -13,7 +13,7 @@
 {{ define "content" }}
 <div class="container p-0 read-area">
   <!--Hero Area-->
-  <div class="hero-area col-sm-12" style='background-image: url({{ partial "helpers/get-hero.html" . }});'>
+  <div class="hero-area col-sm-12" style='background-image: url({{ partial "helpers/get-hero.html" . }} );'>
   </div>
 
   <!--Content Start-->
@@ -53,16 +53,16 @@
           <a href="{{.NextInSection.RelPermalink}}" class="btn btn-outline-info">
             <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
             <br />
-            <span>{{ .Next.Title }}</span>
+            <span>{{ .NextInSection.Title }}</span>
           </a>
         </div>
         {{ end }}
-        {{ if .PrevInSection }}
-        <div class="{{ if .Next }}col-md-6{{ else }}col-md-12{{ end }} next-article">
+        {{ if .PrevInSection}}
+        <div class="{{ if .NextInSection }}col-md-6{{ else }}col-md-12{{ end }} next-article">
           <a href="{{ .PrevInSection.RelPermalink }}" class="btn btn-outline-info">
             <span>Next <i class="fas fa-chevron-circle-right"></i></span>
             <br />
-            <span>{{ .Prev.Title }}</span>
+            <span>{{ .PrevInSection.Title }}</span>
           </a>
         </div>
         {{ end }}

@@ -22,3 +22,5 @@ enableEmoji: true
 params:
   # Github Repo URL. This is used to add "Improve This Page" button
   gitRepo: https://github.com/Flooow54/MyHugoPortfolio
+
+
