@@ -13,25 +13,30 @@ buttons:
 # if your project is public repo on github, then provide "repo" link. it will show star count.
 # if your project is not a public repo but it has a website, or any external details url then provide "url". don't provide "repo" and "url" simultaneously.
 projects:
-  - name: Pokédex Angular
-    logo: images/logos/angular.png
+  - name: Gestionnaire Angular
+    logo: assets/images/logos/angular.png
     role: Projet perso.
-    timeline: "March 2018 - Present"
+    timeline: "Mai 2018 (2 semaines)"
     url: "https://ng8-pokemons-app.web.app/login" 
     summary: Developpement d'un gestionnaire de Pokémons avec Angular. Projet fil rouge d'un MOOC [Udemy](https://www.udemy.com/) sur Angular.
     tags: ["academic", "angular", "mooc", "SPA"]
 
-  - name: Détection de fraude
-    logo: images/logos/DL.png
+  - name: Expérimentations en Deep Learning
+    logo: assets/images/logos/DL.png
     role: Developer
-    timeline: "Mai 2020 (1 semaine) "
-    #repo: https://github.com/tensorflow/tensorflow
-    #url: ""
-    summary: Implémentation d'un modèle de deep learning hybride combinant une carte auto adaptative ainsi qu'un réseau de couches complètement connectées afin de déterminer des potentiels clients fraudeurs sur un dataset bancaire anonymisé. 
-    tags: ["professional", "machine-learning","academic"]
+    timeline: "Février - Mai 2020 "
+    url: "projects/c"
+    summary: "Lors de mon apprentissage du Deep Learning, j'ai été amené à implémenter plusieurs types de réseaux de neurones :
+    <ul>
+      <li>ANN : Prediction du taux d'attrition</li>
+      <li>CNN : Classification d'images</li>
+      <li>RNN : Prédiction du cours d'une action</li>
+      <li>SOM : Détection de fraude</li>
+    </ul>"
+    tags: ["academic", "deep-learning", "mooc", "IA"]
 
   - name: BackOffice Site commercial
-    logo: images/logos/python.png
+    logo: assets/images/logos/python.png
     role: Chef de projet
     timeline: "2017 (1 semaine)"
     #url: "https://www.example.com"
@@ -39,7 +44,7 @@ projects:
     tags: ["academic","python"]
 
   - name: Migration APEX
-    logo: images/logos/apex.png
+    logo: assets/images/logos/apex.png
     role: Chef de projet
     timeline: "Janvier 2018 - Mars 2019"
     #repo: 
@@ -48,7 +53,7 @@ projects:
     tags: ["professional", "oracle", "DBA", "database", "apex"]
 
   - name: Brick Breaker 2D
-    logo: images/logos/unity.png
+    logo: assets/images/logos/unity.png
     role: Projet perso.
     timeline: "Mars 2020 (2 semaines)"
     repo: "https://github.com/Flooow54/BrickBreakerProject" # Publier le jeu sur github / générer le jeu en version web et heberger ?

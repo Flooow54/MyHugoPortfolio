@@ -22,5 +22,6 @@ enableEmoji: true
 params:
   # Github Repo URL. This is used to add "Improve This Page" button
   gitRepo: https://github.com/Flooow54/MyHugoPortfolio
+  mainSections: ["posts"] # the content of these sections will be displayed in "Recent Posts"
 
 

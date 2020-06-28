@@ -19,7 +19,8 @@
                     {{ if .repo }}
                         <a class="github-button-inactive" href="{{ .repo }}" data-icon="octicon-standard"
                             data-show-count="true" aria-label="Star {{ .name }}">Star</a>
-                    {{ else if .url }}
+                    {{ end }}
+                    {{ if .url }}
                         <a class="btn btn-outline-info btn-sm mb-2" href="{{ .url }}" target="#">Details</a>
                     {{ end }}
                 </span>

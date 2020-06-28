@@ -1,6 +1,11 @@
 {{ $authorName:= "Florian F."}}
-{{ if .Site.Data.site.author  }}
-    {{ with .Site.Data.site.author }}
+<!-- check for author in Data.site -->
+{{ if .Site.Data.site.author}}
+    {{ $authorName = .Site.Data.site.author.name }}
+{{ end}}
+<!-- check for author in the page -->
+{{ if eq (printf "%T" .Params.author ) "maps.Params" }}
+    {{ with .Params.author }}
         {{ if .name }}
             {{ $authorName = .name }}
         {{ end }}

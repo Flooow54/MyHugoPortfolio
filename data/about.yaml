@@ -15,13 +15,13 @@ summary: "Je suis un jeune développeur full-stack, formé à la gestion de proj
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: LinkedIn
-  icon: "fab fa-linkedin"
-  url: "https://www.linkedin.com/in/florian-formentini-273189139/"
-
 - name: Email
   icon: "fas fa-envelope"
   url: "mailto:florian.formentini@viacesi.fr"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/florian-formentini-273189139/"
 
 - name: Github
   icon: "fab fa-github"
@@ -42,15 +42,17 @@ softSkills:
 - name: Logique
   percentage: 90
   color: yellow
-- name: Autonome
+- name: Autonomie
   percentage: 80
   color: blue
 - name: Esprit d'équipe
-  percentage: 85
-  color: pink
-- name: Rigoureux
   percentage: 80
+  color: pink
+- name: Rigueur
+  percentage: 85
   color: black
-- name: Curieux
+- name: Adaptation
   percentage: 95
   color: green
+
+# Reactif / Perseverant / capacité adaptation
