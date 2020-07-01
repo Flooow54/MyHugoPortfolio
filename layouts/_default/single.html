@@ -47,7 +47,7 @@
                     {{ if .NextInSection }}
                         <div class="col-md-6 previous-article">
                             <a href="{{.NextInSection.RelPermalink}}" class="btn btn-outline-info">
-                                <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+                                <span><i class="fas fa-chevron-circle-left"></i> Précédent</span>
                                 <br />
                                 <span>{{ .NextInSection.Title }}</span>
                             </a>
@@ -56,7 +56,7 @@
                     {{ if .PrevInSection}}
                         <div class="{{ if .NextInSection }}col-md-6{{ else }}col-md-12{{ end }} next-article">
                             <a href="{{ .PrevInSection.RelPermalink }}" class="btn btn-outline-info">
-                                <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+                                <span>Suivant <i class="fas fa-chevron-circle-right"></i></span>
                                 <br />
                                 <span>{{ .PrevInSection.Title }}</span>
                             </a>
@@ -66,6 +66,11 @@
             {{ end }}
         </div>
         <hr />
+        <div class="col-md-6">
+            <a href="{{ .Site.BaseURL  }}" class="btn btn-outline-info">
+                <span>Accueil <i class="fa fa-home"></i></span>
+            </a>
+        </div>
         
         <!-- Add Disqus forum  -->
         {{ if .Site.DisqusShortname }}

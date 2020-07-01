@@ -13,19 +13,27 @@ buttons:
 # if your project is public repo on github, then provide "repo" link. it will show star count.
 # if your project is not a public repo but it has a website, or any external details url then provide "url". don't provide "repo" and "url" simultaneously.
 projects:
-  - name: Gestionnaire Angular
-    logo: assets/images/logos/angular.png
+  - name: Brick Breaker 2D
+    logo: assets/images/logos/unity.png
     role: Projet perso.
-    timeline: "Mai 2018 (2 semaines)"
-    url: "https://ng8-pokemons-app.web.app/login" 
-    summary: Developpement d'un gestionnaire de Pokémons avec Angular. Projet fil rouge d'un MOOC [Udemy](https://www.udemy.com/) sur Angular.
-    tags: ["academic", "angular", "mooc", "SPA"]
+    timeline: "Mars 2020 (2 semaines)"
+    repo: "https://github.com/Flooow54/BrickBreakerProject" 
+    summary: Création d'un jeu de Casse-Brique avec Unity afin de me familiriser avec les bonnes pratiques de développement sur le moteur de jeu (animations 2D, gestion de niveaux, GUI, etc..).
+    tags: ["hobby","unity","game", "c#"]
+
+  - name: BackOffice Site commercial
+    logo: assets/images/logos/python.png
+    role: Chef de projet
+    timeline: "2017 (1 semaine)"
+    #url: "https://www.example.com"
+    summary: Développement du backoffice d'un site commercial en Python, interfacé avec WPF. Cette application lourde permettait la gestion des articles, clients, commandes ainsi que la mise en place de promotions pour un site principal (PHP) et un site partenaire (ASP.NET).
+    tags: ["academic","python"]
 
   - name: Expérimentations en Deep Learning
     logo: assets/images/logos/DL.png
     role: Developer
     timeline: "Février - Mai 2020 "
-    url: "projects/c"
+    url: "projects/deeplearning"
     summary: "Lors de mon apprentissage du Deep Learning, j'ai été amené à implémenter plusieurs types de réseaux de neurones :
     <ul>
       <li>ANN : Prediction du taux d'attrition</li>
@@ -34,14 +42,6 @@ projects:
       <li>SOM : Détection de fraude</li>
     </ul>"
     tags: ["academic", "deep-learning", "mooc", "IA"]
-
-  - name: BackOffice Site commercial
-    logo: assets/images/logos/python.png
-    role: Chef de projet
-    timeline: "2017 (1 semaine)"
-    #url: "https://www.example.com"
-    summary: Développement du backoffice d'un site commercial en Python, interfacé avec WPF. Cette application lourde permettait la gestion des articles, clients, commandes ainsi que le mise en place de promotions pour un site principal (PHP) et un site partenaire (ASP.NET).
-    tags: ["academic","python"]
 
   - name: Migration APEX
     logo: assets/images/logos/apex.png
@@ -52,10 +52,10 @@ projects:
     summary: "Migration d'un parc de 42 applications (ainsi que des services tiers concernés) développées avec Oracle APEX 3.2 avec une BDD 11g vers la version 5.1 et une BDD 12c"
     tags: ["professional", "oracle", "DBA", "database", "apex"]
 
-  - name: Brick Breaker 2D
-    logo: assets/images/logos/unity.png
+  - name: Gestionnaire Angular
+    logo: assets/images/logos/angular.png
     role: Projet perso.
-    timeline: "Mars 2020 (2 semaines)"
-    repo: "https://github.com/Flooow54/BrickBreakerProject" # Publier le jeu sur github / générer le jeu en version web et heberger ?
-    summary: Création d'un jeu de Casse-Brique avec Unity afin de prendre la main avec des bonnes pratiques de développement sur le moteur de jeu (animations 2D, gestion de niveaux, GUI, etc..).
-    tags: ["hobby","unity","game", "c#"]
+    timeline: "Mai 2018 (2 semaines)"
+    url: "https://ng8-pokemons-app.web.app/login" 
+    summary: Developpement d'un gestionnaire de Pokémons avec Angular. Projet fil rouge d'un MOOC [Udemy](https://www.udemy.com/) sur Angular.
+    tags: ["academic", "angular", "mooc", "SPA"]

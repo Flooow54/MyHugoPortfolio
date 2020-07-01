@@ -11,7 +11,18 @@
       <div class="collapse navbar-collapse" id="top-nav-items">
         <ul class="navbar-nav ml-auto">
             <!-- Insert links to categories of posts (list-pages)-->
+            <li class="nav-item">
+                <a class="nav-link" href="/projects">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/posts">Articles</a>
+            </li>
+            <div class="dropdown-divider" id="top-navbar-divider"></div>
+            <li class="nav-item">
+                <a class="nav-link" id="blog-link" href="{{ .baseURL }}" target="_self">Accueil</a>
+            </li>
         </ul>
       </div>
     </div>
 </nav>
+
