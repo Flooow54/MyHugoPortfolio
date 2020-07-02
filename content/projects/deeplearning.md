@@ -12,11 +12,11 @@ Au fil de ce cours j'ai appris à construire différents types de réseaux de ne
 
 **<ins>Etude de cas :</ins>** Une banque a remarqué que de plus en plus de ses clients partent pour la concurrence. Cette banque souhaite donc identifier le segment de sa clientèle le plus susceptible de partir afin par exemple de pouvoir leur faire une offre les incitant à rester. Pour cela elle fournit un dataset contenant des informations sur 10000 clients (*11 features*) et une variable indiquant si ces personnes sont toujours clientes de la banque ou non.
 
-Après une préparation adéquate des données (feature scaling, encodage OneHot, ...), il a été possible de construire un modèle de classification avec la librairie **Keras**. Ce modèle comprend deux couches cachées à 6 neurones chacunes utilisant la fonction Redresseur (*relu*) et une régularisation par Dropout de 10%, ainsi qu'une couche de sortie constituée d'un seul neurone utiisant le fonction d'action Sigmoïde.  
+Après une préparation adéquate des do11nes chacunes utilisant la fonction Redresseur (*relu*) et une régularisation par Dropout de 10%, ainsi qu'une couche de sortie constituée d'un seul neurone utiisant le fonction d'action Sigmoïde.  
 L'entrainnement du modèle s'est fait en utilisant la fonction de cout logistique (*binary cross entropy*) avec 100 passages du jeu d'entrainnement (comprenant 80% du dataset avec les données choisies au hasard) et une rétropropagation toutes les 10 observations. J'ai obtenu une précision de 86,1% sur le jeu d'entrainnement.  
 Ensuite, en effectuant des prédictions sur le jeu d'entrainnement (en appliquant un seuil de 50% aux prédictions pour leur attribuer une classe), la **matrice de confusion m'a indiquer une précision de 86,4% sur de nouvelles observations**.
 
-[Ajouter une illustation du modèle]
+![ANN](/assets/images/projects/dl/ann.png "Réseau de neuronne utilisé")
 
 Par la suite, j'ai cherché à améliorer l'évaluation de mon modèle en implémentant une **Cross-validation** ainsi qu'une recherche des *hyperparamètres* par **Grid-Serach** en jouant sur le nombre d'observations par lots, le nombre de *folds* et de passage du dataset, ou encore le type d'algorithme du gradient stochastic, ce qui m'a permi d'atteindre l'objectif fixé par le cours : dépasser le seuil de **90% de précision sur la généralisation** à de nouvelles observations.
   
@@ -25,6 +25,8 @@ Par la suite, j'ai cherché à améliorer l'évaluation de mon modèle en implé
 **Convolutionnal Neural Network**
 
 **<ins>Etude de cas :</ins>** On souhaite disposer d'un programme sachant différencier une image montrant un chien d'une image montrant un chat. On dispose pour cela d'un jeu de 10000 images avec un répartition à peu près égale de chiens et de chats.
+
+![CNN](/assets/images/projects/dl/cnn.png "Réseau de neuronne à convolution utilisé")
 
 
 ## Prédiction des tendances de l'action Google

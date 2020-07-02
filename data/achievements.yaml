@@ -2,13 +2,17 @@
 achievements:
   - title: Disponibilité
     image: assets/images/achievements/location.png
-    summary: Je suis disponible dans un rayon d'une quarantaine de Kms autours de Nancy (54000) et pour toutes autres missions non-présentielles. 
+    summary: Je suis disponible dans un rayon d'une **quarantaine de Kms autours de Nancy** (54000) et pour toutes autres missions non-présentielles. 
   - title: Parcours Scolaire
     image: assets/images/achievements/education.png
     summary: "<ul><li>2017/2019 : <strong>BAC +4</strong> Responsable en Ingénierie des Logiciels - CESI Alternance</li><li>2015/2017 : <strong>BTS</strong> Services Informatiques aux Organisations spécalité développement</li><li>2015 : <strong>BAC STI2D</strong> option Services Informatiques et Numériques</li></ul>"
   - title: Hobbies
     image: assets/images/achievements/hobbies.svg
-    summary: "<ul><li><strong>Programmation</strong> : Développement de jeux vidéos (Unity), réalisation de divers projets personnels.</li><li><strong>Crypto-monnaies</strong> : Minage, trading de différentes crypto monnaies.</li><li><strong>Domotique</strong> : Raspberry Pi, Arduino, impressions 3D.</li></ul>"
+    summary: "<ul>
+      <li><strong>Programmation</strong> : Développement de jeux vidéos (Unity), réalisation de divers projets personnels.</li>
+      <li><strong>Crypto-monnaies</strong> : Minage, trading de différentes crypto monnaies.</li>
+      <li><strong>Domotique</strong> : Raspberry Pi, Arduino, impressions 3D.</li>
+      </ul>"
   - title: Certifications Obtenues
     image: assets/images/achievements/mooc.png
     summary: 'La liste de toute mes certification obtenues sur les plateformes OpenClassroom et Udemy est disponible sur mon profil [LinkedIn](https://www.linkedin.com/in/florian-formentini-273189139/)'
