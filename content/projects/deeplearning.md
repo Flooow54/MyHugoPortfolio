@@ -1,6 +1,6 @@
 ---
 hero: /assets/images/heros/ai_hero.jpg
-date: 2020-06-22T19:07:32+02:00
+date: 2020-07-02T19:07:32+02:00
 title: "Expérimentations en Deep Learning"
 ---
 
@@ -13,8 +13,8 @@ Au fil de ce cours j'ai appris à construire différents types de réseaux de ne
 **<ins>Etude de cas :</ins>** Une banque a remarqué que de plus en plus de ses clients partent pour la concurrence. Cette banque souhaite donc identifier le segment de sa clientèle le plus susceptible de partir afin par exemple de pouvoir leur faire une offre les incitant à rester. Pour cela elle fournit un dataset contenant des informations sur 10000 clients (*11 features*) et une variable indiquant si ces personnes sont toujours clientes de la banque ou non.
 
 Après une préparation adéquate des do11nes chacunes utilisant la fonction Redresseur (*relu*) et une régularisation par Dropout de 10%, ainsi qu'une couche de sortie constituée d'un seul neurone utiisant le fonction d'action Sigmoïde.  
-L'entrainnement du modèle s'est fait en utilisant la fonction de cout logistique (*binary cross entropy*) avec 100 passages du jeu d'entrainnement (comprenant 80% du dataset avec les données choisies au hasard) et une rétropropagation toutes les 10 observations. J'ai obtenu une précision de 86,1% sur le jeu d'entrainnement.  
-Ensuite, en effectuant des prédictions sur le jeu d'entrainnement (en appliquant un seuil de 50% aux prédictions pour leur attribuer une classe), la **matrice de confusion m'a indiquer une précision de 86,4% sur de nouvelles observations**.
+L'entraînement du modèle s'est fait en utilisant la fonction de cout logistique (*binary cross entropy*) avec 100 passages du jeu d'entraînement (comprenant 80% du dataset avec les données choisies au hasard) et une rétropropagation toutes les 10 observations. J'ai obtenu une précision de 86,1% sur le jeu d'entraînement.  
+Ensuite, en effectuant des prédictions sur le jeu d'entraînement (en appliquant un seuil de 50% aux prédictions pour leur attribuer une classe), la **matrice de confusion m'a indiquer une précision de 86,4% sur de nouvelles observations**.
 
 ![ANN](/assets/images/projects/dl/ann.png "Réseau de neuronne utilisé")
 
@@ -52,4 +52,4 @@ Ce modèle a été construit en deux parties :
 
 2. Ensuite, à partir des résultats obtenus précedemment (le fait qu'un client faude ou non) il a été possible de construire un réseaux de neurones afin de fournir à la banque une liste ordonnée indiquant la probabilité qu'un client fraude pour tout le dataset. Cet ANN se composait d'une couche cachée et d'un neurone de sortie et a été entrainné en utilisant la fonction de coût logistique.  
 
-Ici, la taille du dataset a été problématique car n'ayant détecté que peu de cas frauduleux, les prédictions ont été faites sur les données d'entrainnement (pas de séparation possible). Il en a résulté de grandes probabilités sur les clients déja identifiés comme fraudeurs et de beaucoup plus petites nuances sur les valeurs des autres clients.
+Ici, la taille du dataset a été problématique car n'ayant détecté que peu de cas frauduleux, les prédictions ont été faites sur les données d'entraînement (pas de séparation possible). Il en a résulté de grandes probabilités sur les clients déja identifiés comme fraudeurs et de beaucoup plus petites nuances sur les valeurs des autres clients.
