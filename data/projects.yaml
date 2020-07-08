@@ -33,7 +33,7 @@ projects:
     logo: assets/images/logos/DL.png
     role: Developer
     timeline: "Février - Mai 2020 "
-    url: "projects/deeplearning"
+    url: "blog/projects/deeplearning"
     summary: "Lors de mon apprentissage du Deep Learning, j'ai été amené à implémenter plusieurs types de réseaux de neurones :
     <ul>
       <li>ANN : Prediction du taux d'attrition</li>
@@ -59,3 +59,13 @@ projects:
     url: "https://ng8-pokemons-app.web.app/login" 
     summary: Developpement d'un gestionnaire de Pokémons avec Angular. Projet fil rouge d'un MOOC [Udemy](https://www.udemy.com/) sur Angular.
     tags: ["academic", "angular", "mooc", "SPA"]
+
+  - name: Mutualizer Project
+    logo: assets/images/logos/csharp.svg
+    role: Développeur
+    timeline: "?"
+    url: "blog/projects/mutualizer" 
+    summary: Développement d'une application lourde en C# permettant la récupération des informations sur une carte de mutuelle grâce à l'OCR Tesseract.
+    tags: ["academic", "OCR", "Tesseract", "c#"] 
+
+

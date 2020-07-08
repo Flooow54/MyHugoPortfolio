@@ -63,7 +63,7 @@ var isMobile = false, isTablet = false, isLaptop = false;
         });
       });
 
-      // remove "expnad" class from siblings of the clicked item
+      // remove "expand" class from siblings of the clicked item
       tree.find("li").on("click", function () {
         var item = $(this);
         var shiblings = item.siblings().each(function () {
@@ -90,6 +90,8 @@ var isMobile = false, isTablet = false, isLaptop = false;
     buildSidebarMenu();
     // initialize filterizr
     filterizd = $(".filtr-container").filterizr({ layout: 'sameWidth' });
+
+
   });
 })(jQuery);
 
@@ -105,6 +107,6 @@ function toggleSidebar() {
   }
 
   setTimeout(function () {
-    filterizd.filterizr('sort');
+    filterizd.filterizr('filter', targetFilter);
   }, 300);
 }
