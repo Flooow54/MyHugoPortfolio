@@ -10,7 +10,8 @@
 {{ define "content" }}
 <div class="container p-0 read-area">
     <!--Hero Area-->
-    <div class="hero-area col-sm-12" style='background-image: url({{ partial "helpers/get-hero.html" . }});'></div>
+    {{ $herolink := partial "helpers/get-hero.html" . }}
+    <div class="hero-area col-sm-12" style="background-image: url('{{ $herolink }}');"></div>
 
     <!--Content Start-->
     <div class="page-content">
@@ -31,9 +32,9 @@
         <!--- Improve this page button --->
         {{ if .Site.Params.GitRepo }}
         <div class="btn-improve-page">
-            <a href="{{ .Site.Params.GitRepo }}/edit/master/content/{{ .File.Path }}">
+            <a href='{{ .Site.Params.GitRepo }}/edit/master/content/{{ replace .File.Path "\\" "/" | safeHTML }}'>
                 <i class="fas fa-code-branch"></i>
-                Improve This Page
+                Améliorer cette page
             </a>
         </div>
         {{ end }}
