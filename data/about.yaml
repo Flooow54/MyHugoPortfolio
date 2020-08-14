@@ -10,14 +10,14 @@ designation: Analyste Programmeur
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Je suis un jeune développeur full-stack, formé à la gestion de projets (dont les méthodes agiles), au travail en équipe et spécialisé dans le traitement de données. Passionné par les nouvelles technologies, je me forme actuellement au développement d'intelligence artificielles et à la DataScience."
+summary: "Je suis un jeune développeur full-stack, formé à la gestion de projets (dont les méthodes agiles), au travail en équipe et spécialisé dans le traitement de données. Passionné par les nouvelles technologies, je me forme actuellement au développement d'intelligences artificielles (Machine Learning / Deep Learning) et au domaine de la DataScience."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "mailto:florian.formentini@viacesi.fr"
+  url: "mailto:contact@florianformentini.fr"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"

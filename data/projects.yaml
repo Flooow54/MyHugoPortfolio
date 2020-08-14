@@ -26,7 +26,7 @@ projects:
     role: Chef de projet
     timeline: "2017 (1 semaine)"
     #url: "https://www.example.com"
-    summary: Développement du backoffice d'un site commercial en Python, interfacé avec WPF. Cette application lourde permettait la gestion des articles, clients, commandes ainsi que la mise en place de promotions pour un site principal (PHP) et un site partenaire (ASP.NET).
+    summary: Développement du backoffice d'un site commercial en Python, interfacé avec WPF. Cette application lourde permettait la gestion des articles, clients, commandes ainsi que la mise en place de promotions pour un site principal (PHP + MySQL) et un site partenaire (ASP.NET + SQLserver).
     tags: ["academic","python"]
 
   - name: Expérimentations en Deep Learning
@@ -63,8 +63,8 @@ projects:
   - name: Mutualizer Project
     logo: assets/images/logos/csharp.svg
     role: Développeur
-    timeline: "?"
-    url: "blog/projects/mutualizer" 
+    timeline: "14 Novembre 2018"
+    #url: "blog/projects/mutualizer" 
     summary: Développement d'une application lourde en C# permettant la récupération des informations sur une carte de mutuelle grâce à l'OCR Tesseract.
     tags: ["academic", "OCR", "Tesseract", "c#"] 
 
