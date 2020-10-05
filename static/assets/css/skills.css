@@ -17,13 +17,17 @@
   padding-top: 0;
 }
 
-.skills .card .card-head {
+
+.skills .card .card-head  {
   height: fit-content;
 }
+
+/* .card { min-height: min-content; }  uncomment to make all card fit the biggest content */
 
 .skills .card .card-head h4 {
   margin-top: 0.8rem;
 }
+
 
 /* ============= Device specific fixes ======= */
 

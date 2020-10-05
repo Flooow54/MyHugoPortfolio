@@ -15,4 +15,5 @@ achievements:
       </ul>"
   - title: Certifications Obtenues
     image: assets/images/achievements/mooc.png
-    summary: 'La liste de toute mes certification obtenues sur les plateformes OpenClassroom et Udemy est disponible sur mon profil [LinkedIn](https://www.linkedin.com/in/florian-formentini-273189139/)'
+    summary: 'La liste de toute mes certification obtenues sur les plateformes OpenClassroom et Udemy est disponible sur cet article : <a href="/blog/posts/certifications/" class="btn btn-secondary">Certifications</a>
+    <br/><br/>Ainsi que sur mon profil <a href="https://www.linkedin.com/in/florian-formentini-273189139/"  class="btn btn-secondary" target="_blank">LinkedIn</i></a>'

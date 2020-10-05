@@ -2,7 +2,7 @@
 # don't provide "end" date if you are currently working there. It will be replaced by "Aujourd'hui"
 # if no responsabilities given the list will be removed
 experiences:
-  - designation: Micro-Entrepreneur
+  - designation: Développeur Freelance
     company:
       name: Flo Corp.
       url: "#"

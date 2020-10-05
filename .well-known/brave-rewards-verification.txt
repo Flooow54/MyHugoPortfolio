@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: florianformentini.fr
+Token: 047233db81dbb09e7239a7335f863435ce145a650ccd9173f64f44056703e09d

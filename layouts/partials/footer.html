@@ -7,7 +7,7 @@
           <ul>
             {{ range .Site.Data.site.menus }}
             <li class="nav-item">
-              <a class="smooth-scroll" href="{{ .url }}">{{ .name }}</a>
+              <a class="smooth-scroll" href="{{ .Site.BaseURL  }}/{{ .url }}">{{ .name }}</a>
             </li>
             {{ end }}
           </ul>

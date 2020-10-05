@@ -2,7 +2,7 @@
   {{ if .Site.Data.skills }}
     <h1 class="text-center">Compétences</h1>
 
-    <div class="container d-flex-block">
+    <div class="container d-flex">
       <div class="row" id="primary-skills">
         {{ range .Site.Data.skills.skills }}
           {{ partial "cards/skill.html" . }}

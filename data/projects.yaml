@@ -52,6 +52,14 @@ projects:
     summary: "Migration d'un parc de 42 applications (ainsi que des services tiers concernés) développées avec Oracle APEX 3.2 avec une BDD 11g vers la version 5.1 et une BDD 12c"
     tags: ["professional", "oracle", "DBA", "database", "apex"]
 
+  - name: Mutualizer Project
+    logo: assets/images/logos/csharp.svg
+    role: Développeur
+    timeline: "14 Novembre 2018"
+    #url: "blog/projects/mutualizer" 
+    summary: Développement d'une application lourde en C# permettant la récupération des informations sur une carte de mutuelle grâce à une lecture de DataMatrix et de l'OCR Tesseract.
+    tags: ["academic", "OCR", "Tesseract", "c#"] 
+
   - name: Gestionnaire Angular
     logo: assets/images/logos/angular.png
     role: Projet perso.
@@ -59,13 +67,4 @@ projects:
     url: "https://ng8-pokemons-app.web.app/login" 
     summary: Developpement d'un gestionnaire de Pokémons avec Angular. Projet fil rouge d'un MOOC [Udemy](https://www.udemy.com/) sur Angular.
     tags: ["academic", "angular", "mooc", "SPA"]
-
-  - name: Mutualizer Project
-    logo: assets/images/logos/csharp.svg
-    role: Développeur
-    timeline: "14 Novembre 2018"
-    #url: "blog/projects/mutualizer" 
-    summary: Développement d'une application lourde en C# permettant la récupération des informations sur une carte de mutuelle grâce à l'OCR Tesseract.
-    tags: ["academic", "OCR", "Tesseract", "c#"] 
-
 

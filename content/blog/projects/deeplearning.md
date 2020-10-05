@@ -1,5 +1,5 @@
 ---
-hero: /assets/images/heros/ai_hero.jpg
+hero: /assets/images/heros/ai-hero.jpg
 date: 2020-07-02T19:07:32+02:00
 title: "Expérimentations en Deep Learning"
 ---

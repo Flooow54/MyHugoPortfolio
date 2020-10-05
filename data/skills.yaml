@@ -5,32 +5,39 @@ skills:
   icon: "assets/images/logos/python.png"
   summary: "Utilisation de la distribution Anaconda, des IDE Spyder et Jupyter ainsi que des librairies Numpy, keras, Matplotlib, Pandas, TensorFlow et Pytorch dans mes recherches sur l'intelligence artificielle."
 
+- name: Machine Learning
+  icon: "assets/images/logos/ML.png"
+  summary: "<ul><li>Apprentissage supervisé</li>
+      <li>Apprentissage non supervisé</li>
+      <li>Méthodes ensemblistes</li>
+      <li>Régularisation, Validation croisée, GridSearch</li>
+      <li>Représatations graphiques, évaluation des modèles</li></ul>"
+
+- name: Deep Learning
+  icon: "assets/images/logos/DL.png"
+  summary: "<ul><li>ANN : Regression / Classification</li>
+      <li>CNN : Computer vision</li><li>RNN : Séries temporelles</li>
+      <li>SOM : Discrétisation, quantification vectorielle ou classification</li></ul>"
+
 - name: C#
   icon: "assets/images/logos/cSharp.png"
   summary: "Conception d'applications lourdes interfacées avec Winform ou WPF (avec architecture MVVM). "
 
-- name: Deep Learning
-  icon: "assets/images/logos/DL.png"
-  summary: "<ul>
-    <li>ANN : Regression / Classification</li>
-    <li>CNN : Computer vision</li><li>RNN : Séries temporelles</li>
-    <li>SOM : Discrétisation, quantification vectorielle ou classification</li>
-    </ul>"
-
-- name: Machine Learning
-  icon: "assets/images/logos/ML.png"
-  summary: "<ul>
-    <li>Régression linéaire simple / multiple</li><li>Modèles de classification : regression logistique, kNN, SVM, kernel-SVM</li>
-    <li>Clustering k-Means</li>
-    </ul>"
-
 - name: Oracle
   icon: "assets/images/logos/oracle.png"
-  summary: "Administration de base de données 11g et 12c et conception d'applications Oracle Application Express."
+  summary: "Administration de base de données 11g et 12c <br/>
+  Conception d'applications Oracle Application Express (APEX) <br/>
+  Migration d'environnement pour une mise à niveau d'APEX"
 
-- name: Angular
-  icon: "assets/images/logos/angular.png"
-  summary: "Conception d'application de type Single Page Application."
+- name: Big Data
+  icon: "assets/images/logos/bigdata.png"
+  summary: "Architecture Lambda, solutions NoSQL (MongoDB, ElasticSearch), calculs distibuées, AWS"
+
+- name: Gestion de projets
+  icon: "assets/images/logos/projets.png"
+  summary: "**Cadrage du projet** : analyse du fonctionnelle, des risques, plannification, méthodes traditionnelles et agiles <br/>
+  **Equipe projet** : gestion des ressources, optimisation des délais / moyens <br/>
+  **Déploiement** : plan de déploiement, de maintenance, et de formations, PRA/PCA, documentation"
 
 - name: Hugo
   icon: "assets/images/logos/hugo-logo-wide.svg"
